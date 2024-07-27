@@ -117,3 +117,8 @@ dmypy.json
 
 /_Framework
 /_Generic
+
+/src/app/node_modules/
+/src/app/public/build/
+
+.DS_Store
