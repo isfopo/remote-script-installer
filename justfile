@@ -1,5 +1,5 @@
 install:
-	python3 scripts/install.py --name RemoteScriptInstaller
+	npm run build && python3 scripts/install.py --name RemoteScriptInstaller
 
 watch:
 	python3 scripts/watch.py --version 'Live 12.0.15'
